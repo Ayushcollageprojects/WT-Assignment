@@ -1,0 +1,446 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #22262A;
+}
+.close{
+    margin: 0.938rem 1.25rem;
+    position: absolute;
+    right: 0;
+}
+.maincard{
+     background-color: #FFF;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     max-width: 81.75rem;
+     opacity: 1;
+    
+}
+.toppic{
+    width: 27.375rem;
+    height: 29.75rem;
+}
+.bigimage{
+  width: 100%;
+  height: 100%;
+}
+.card1{
+    padding: 3.563rem 0 3.25rem 6.063rem;
+}
+.squre1,.squre2,.squre3{
+    width: 7.65rem;
+    height: 8.25rem;
+}
+ .picture1,.picture2,.picture3{
+    height: 100%;
+    width: 100%;
+} 
+.downpic{
+    margin-top: 2.875rem;
+    display: flex;
+    gap: 2.15rem;
+}
+.card2{
+    margin-left: 2.664rem;
+    padding: 3.563rem 0 3.25rem 0;
+}
+.heading{
+    font-size: .938rem;
+    font-weight: 300;
+    color: #22262A;
+    margin: 0%;
+}   
+.about{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0%;
+}
+#mrpcencle{
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-right: .5rem;
+}
+#mrp{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: red;
+}
+.text{
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+.middletext{
+    width: 37.688rem;
+    margin: 1.688rem 8rem 2.438rem 0;
+}
+.color{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.check1{
+    appearance: none;
+    margin-right: 0.875rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #68C8E1;
+    border-radius: 50%;
+      outline:#CBCBCB solid 2px;
+      outline-offset: 4px;
+}
+.check2{
+    appearance: none;
+    margin-right: 0.875rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #C968E1;
+    border-radius: 50%;
+    outline:#CBCBCB solid 2px;
+    outline-offset: 4px;
+}
+.check3{
+    appearance: none;
+    margin-right: 0.875rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: #C2E168;
+    border-radius: 50%;
+    outline:#CBCBCB solid 2px;
+     outline-offset: 4px; 
+}
+.check1:checked{
+    background-color: #68C8E1;
+    outline: black solid 2px;
+}
+.check2:checked{
+    background-color: #C968E1;
+    outline: black solid 2px;
+}
+.check3:checked{
+    background-color: #C2E168;
+    outline: black solid 2px;
+}
+.colorbox{
+    margin-bottom: 1.688rem;
+}
+.click1{
+  border: none;
+  font-size: 0.875rem;
+  margin-right: 1.188rem;
+  padding: .313rem 1.563rem; 
+  background-color: #FFF;
+  outline: #CBCBCB solid 1px;
+}
+.click2{
+    border: none;
+    font-size: 0.875rem;
+    margin-right: 1.188rem;
+    padding: .313rem .938rem; 
+    background-color: #FFF;
+    outline: #CBCBCB solid 1px;
+}
+.click3{
+    border: none;
+    font-size: 0.875rem;
+    padding: .313rem 1.563rem; 
+    background-color: #FFF;
+    outline: #CBCBCB solid 1px;
+}
+.click1:active,.click1:focus{
+    outline: black solid 1px;
+}
+.click2:active,.click2:focus{
+    outline: black solid 1px;
+}
+.click3{
+    pointer-events: none;
+  opacity: 0.5;
+}
+.sizechart{
+    margin-bottom: 1.938rem;
+}
+.xbutton{
+    padding: 0.625rem 3.063rem;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #FFF;
+    background-color: black;
+}
+     
+
+                                /* Responsive Card  */
+
+  @media only screen and (max-width:1309px) {
+    .middletext{
+        margin: 1.688rem 4rem 2.438rem 0; 
+    }
+  }                             
+
+
+@media only screen and (max-width:1250px){
+    .card1 {
+        padding: 3.563rem 0 3.25rem 3.063rem;
+    }
+}  
+@media only screen and (max-width:1250px){
+    .toppic{
+        width: 21.906rem;
+        height: auto;
+    }
+    .bigimage{
+        width: 100%;
+    }
+    .squre1,.squre2,.squre3{
+        width:6.125rem;
+        height: 6.625rem;
+    }
+    .downpic{
+        gap: 1.7rem;
+    }
+    .middletext {
+        width: 35rem;
+        margin: 0;
+    }
+    .card1 {
+        padding: 2.563rem 0 3.25rem 2.063rem;
+    }
+    .card2 {
+        margin-left: 2.664rem;
+        padding: 2.563rem 0 3.25rem 0;
+    }
+     .text{
+        width: 80%;
+    } 
+}          
+@media only screen and (max-width:1000px){
+    .card1 {
+        padding: 1.563rem 0 2.25rem 1.5rem;
+    }
+    .card2 {
+        margin-left: 1.664rem;
+        padding: 1.563rem 0 2.25rem 0;
+    }
+   .about{
+        font-size: 1.25rem;
+    }
+    #mrp,#mrpcencle{
+        font-size: 1rem;
+    }
+    .middletext {
+        width: 25rem;
+        margin: 1rem 0 1.5rem 0;
+    }
+    .text{
+      font-size: 1rem;
+    } 
+    .color{
+        margin: 1rem auto;
+    }
+    .xbutton {
+        padding: 0.625rem 3.063rem;
+        font-size: 1rem;
+
+    }    
+}
+@media only screen and (max-width:820px){
+    .toppic{
+        width: 17.563rem;
+    }
+    .squre1,.squre2,.squre3{
+        width: 4.906rem;
+        height:5.281rem;
+    }
+    .downpic{
+        gap: 1.5rem;
+        margin-top: 1.875rem;
+    }
+    .middletext{
+        width: 23rem;
+        margin: 1rem 0 1rem 0;
+    }
+    .text{
+        width: 90%;
+        font-size: .9rem;
+    }
+}
+@media only screen and (max-width:730px){
+    .xclose{
+        width:1.25rem ;
+    }
+    .close{
+        margin: 0.938rem 1rem;
+    }
+    .toppic{
+        width: 14.063rem;
+    }
+    .squre1,.squre2,.squre3{
+        width:3.938rem;
+        height: 4.3rem;
+    }
+    .downpic{
+        gap: 1.1rem;
+        margin-top: 1.875rem;
+    }
+    .heading{
+        font-size: .8rem;
+    }
+   .about{
+        font-size: 1rem;
+    }
+    #mrp,#mrpcencle{
+        font-size: .8rem;
+    }
+    .middletext{
+        width:17rem;
+        margin: 0;
+        margin-right: 2rem;
+    }
+    .text{
+        font-size: .7rem;
+        width: 100%;
+    }
+    .color{
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+        font-size: 1rem;
+    }
+    .check1,.check2,.check3{
+        width: 1rem;
+        height: 1rem;
+    }
+    .colorbox {
+        margin-bottom: .5rem;
+    }
+    .click1{  
+        font-size: 0.775rem;
+        margin-right: 1rem;
+        padding: 0.213rem 1rem;
+    }
+    .click2 {
+        font-size: 0.775rem;
+        margin-right: 1rem;
+        padding: 0.213rem 0.738rem;
+    }
+    .click3 {     
+        font-size: 0.775rem;
+        padding: 0.213rem 1rem;
+    }
+    .sizechart {
+        margin-bottom: 1rem;
+    }
+    .xbutton {
+        padding: 0.425rem 1.063rem;
+        font-size: .8rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .xclose{
+        width:1rem ;
+    }
+    .close{
+        margin: 0.738rem .7rem;
+    }
+    .toppic{
+    width: 12.75rem;
+   }
+   .squre1,.squre2,.squre3{
+    width: 3.456rem;
+    height: 3.813rem;
+   }
+   .downpic{
+    margin-top: 1rem;
+   }
+   .heading{
+    font-size: .7rem;
+   }
+   .about {
+    font-size: .6rem;
+   }
+   #mrp,#mrpcencle{
+    font-size: .6rem;
+   }
+   .text {
+    font-size: .6rem;
+    width: 100%;
+   } 
+   .middletext {
+    width: 10rem;
+    margin: 0;
+    margin-right: 2rem;
+   }
+   .card1 {
+    padding: 1.563rem 0 2.25rem 1rem;
+   }
+   .card2 {
+    margin-left: 1rem;
+
+}
+   .color {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-size: .8rem;
+   }
+   .click1{  
+    font-size: 0.575rem;
+    margin-right: .5rem;
+    padding: 0.113rem .8rem;
+   }
+   .click2 {
+    font-size: 0.575rem;
+    margin-right: .5rem;
+    padding: 0.113rem 0.638rem;
+   }
+   .click3 {     
+    font-size: 0.575rem;
+    padding: 0.213rem .8rem;
+   }
+   .check1,.check2,.check3{
+    width: .8rem;
+    height: .8rem;
+   }
+   .xbutton {
+    padding: 0.325rem .8rem;
+    font-size: .6rem;
+   }
+}
+@media only screen and (max-width:450px) {
+
+    .toppic{
+        width: 8.938rem;
+    }
+    .squre1,.squre2,.squre3{
+        width: 2.75rem;
+        height: 2.975rem;
+    }
+    .downpic{
+        margin-top: .8rem;
+        gap: .5rem;
+    }
+    .sizechart {
+        margin-bottom: .8rem;
+    }
+    
+}
+
+
+.fullbox {
+     display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.maincard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10000;
+     display: flex; 
+     flex-direction: row;
+}
